@@ -1,16 +1,17 @@
-🚗 Car Wash App - Gestão Completa de Lavagem de Carros 🧼
+# 🚗 Car Wash App - Gestão Completa de Lavagem de Carros 🧼
 
-📌 Visão Geral
+## 📌 Visão Geral
 Car Wash App é um aplicativo móvel desenvolvido em React Native (TypeScript), adaptado de um projeto web para oferecer uma experiência premium de lavagem de carros. Com recursos como agendamento via calendário, chat, videochamada, ofertas especiais, mapas de direção e integração com provedores populares, proporciona uma solução moderna e interativa.
 
-🚀 Executando o Projeto
+## 🚀 Executando o Projeto
 Siga as instruções abaixo para configurar e rodar o projeto localmente.
-1️⃣ Clonando o Repositório
+
+###1️⃣ Clonando o Repositório
 git clone https://github.com/gilson-leonel01/carWash_app.git
 cd carWash_app
 
-2️⃣ Configuração do Ambiente
-📌 Pré-requisitos:
+###2️⃣ Configuração do Ambiente
+####📌 Pré-requisitos:
 
 Node.js instalado (versão 16+ recomendada).
 Yarn ou npm como gerenciador de pacotes.
@@ -18,7 +19,7 @@ Firebase configurado (para autenticação, chat e banco de dados).
 Emulador Android/iOS ou dispositivo físico para testes.
 Criar um arquivo .env com as credenciais do Firebase e APIs de mapas (ex.: Google Maps).
 
-📌 Configuração:
+####📌 Configuração:
 
 Instalar as dependências:npm install
 # ou
@@ -31,18 +32,18 @@ Configure a API do Google Maps para mapas e direções.
 
 
 Iniciar o Metro Bundler:npm start
-# ou
+##### ou
 yarn start
 
 
 Rodar o aplicativo no emulador ou dispositivo:npm run android
-# ou
+##### ou
 npm run ios
 
 
 
 A aplicação estará disponível no emulador ou dispositivo conectado.
-📝 Funcionalidades
+###📝 Funcionalidades
 
 📌 Agendamento de lavagens com integração de calendário.
 📌 Chat em tempo real com provedores de serviços.
@@ -66,11 +67,11 @@ Styled Components
 React Native Vector Icons
 Framer Motion (adaptação para animações mobile)
 
-🔹 Backend:
+###🔹 Backend:
 
 Firebase (Firestore para banco de dados, Authentication para login, Realtime Database para chat)
 
-📌 Links Úteis
+####📌 Links Úteis
 
 Documentação do React Native
 Firebase
@@ -79,7 +80,7 @@ React Native Calendars
 React Native Maps
 WebRTC
 
-🤝 Contribuição
+###🤝 Contribuição
 Contribuições são bem-vindas! Para contribuir:
 
 Fork o repositório.
@@ -88,4 +89,4 @@ Faça as alterações e commite (git commit -m 'Minha nova feature').
 Envie um pull request.
 
 
-Desenvolvido com 💙 por Gilson Leonel a.k.a G!
+####Desenvolvido com 💙 por Gilson Leonel a.k.a G!
